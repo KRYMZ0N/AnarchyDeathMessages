@@ -1,0 +1,7 @@
+name: AnarchyDeathMessages
+version: '${project.version}'
+main: me.krymz0n.anarchydeathmessages.Main
+api-version: 1.16
+authors: [ KRYMZ0N ]
+description: A Death messages plugin designed for anarchy servers!
+website: www.3b3t.me
