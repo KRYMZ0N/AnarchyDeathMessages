@@ -18,7 +18,7 @@ public class EndCrystal implements Listener {
     @EventHandler
     public void onPlayerDeath(PlayerDeathEvent evt) {
         if (Objects.requireNonNull(evt.getEntity().getLastDamageCause()).getCause() == EntityDamageEvent.DamageCause.ENTITY_EXPLOSION) {
-            evt.setDeathMessage("fucker");
+            evt.setDeathMessage("");
         }
     }
 }
